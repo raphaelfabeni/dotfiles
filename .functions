@@ -104,9 +104,9 @@ function digga() {
 	dig +nocmd "$1" any +multiline +noall +answer
 }
 
-# return md5 of a string
-function md5() {
-	echo -n "$1" | md5
+# return mdf of a string
+function md5str() {
+	echo -n "$@" | md5
 }
 
 # Add reminder to Reminders.app (OS X 10.8)
