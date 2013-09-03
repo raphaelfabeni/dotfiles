@@ -104,6 +104,11 @@ function digga() {
 	dig +nocmd "$1" any +multiline +noall +answer
 }
 
+# return md5 of a string
+function md5() {
+	echo -n "$1" | openssl md5
+}
+
 # Add reminder to Reminders.app (OS X 10.8)
 # Usage: `remind 'foo'` or `echo 'foo' | remind`
 function remind() {
