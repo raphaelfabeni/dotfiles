@@ -133,3 +133,8 @@ function gi() {
 	local IFS=,
 	eval npm install --save-dev grunt-{"$*"}
 }
+
+# brew cask install
+function installcask() {
+	brew cask install "${@}" 2> /dev/null
+}

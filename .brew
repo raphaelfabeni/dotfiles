@@ -35,14 +35,15 @@ brew install php55
 # Install other useful binaries
 brew install ack
 brew install git
-#brew install imagemagick
+brew install imagemagick
 brew install lynx
-# brew install node
+brew install node
 brew install pigz
-# brew install rename
-# brew install rhino
+brew install rename
+brew install rhino
 brew install tree
 brew install webkit2png
+brew install tig
 # brew install zopfli
 
 brew tap homebrew/versions
@@ -57,8 +58,14 @@ function installcask() {
 }
 
 installcask adium
+installcask arduino
+installcask audacity
+installcask cloudup
+installcask chromecast
+installcask dash
 installcask dropbox
 installcask firefox
+installcask firefox-aurora
 installcask google-chrome
 installcask google-chrome-canary
 installcask imagealpha
@@ -66,6 +73,8 @@ installcask imageoptim
 installcask iterm2
 installcask miro-video-converter
 installcask opera
+installcask opera-next
+installcask skype
 installcask sublime-text
 installcask the-unarchiver
 installcask tor-browser
