@@ -45,4 +45,4 @@ bind 3:ctrl;alt         throw 2 resize
 #bind down:cmd;alt focus behind
 
 # Window Hints
-bind esc:cmd hint
+#bind esc:cmd hint
