@@ -80,6 +80,7 @@ installcask the-unarchiver
 installcask tor-browser
 installcask transmission
 installcask virtualbox
+installcask vlc
 
 # Quicklooks
 installcask qlcolorcode
