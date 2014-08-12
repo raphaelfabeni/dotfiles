@@ -32,6 +32,8 @@ brew install php55
 #brew install homebrew/dupes/vim
 #brew install homebrew/dupes/screen
 
+brew install hub
+
 # Install other useful binaries
 brew install ack
 brew install git
