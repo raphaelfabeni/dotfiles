@@ -6,10 +6,10 @@ config nudgePercentOf screenSize
 config resizePercentOf screenSize
 
 # Resize Bindings
-bind right:cmd;alt       resize +10% +0
-bind left:cmd;alt        resize -10% +0
-bind up:cmd;alt          resize +0   -10%
-bind down:cmd;alt        resize +0   +10%
+bind right:ctrl;cmd;alt       resize +10% +0
+bind left:ctrl;cmd;alt        resize -10% +0
+bind up:ctrl;cmd;alt          resize +0   -10%
+bind down:ctrl;cmd;alt        resize +0   +10%
 # bind right:ctrl;alt      resize -10% +0 bottom-right
 # bind left:ctrl;alt       resize +10% +0 bottom-right
 # bind up:ctrl;alt         resize +0   +10% bottom-right
