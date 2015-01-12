@@ -28,13 +28,13 @@ bind down:ctrl;cmd   push down  #bar-resize:screenSizeY/2
 #bind down:shift;alt  nudge +0   +10%
 
 # Throw Bindings
-bind 1:ctrl;alt         throw 0 resize
-bind 2:ctrl;alt         throw 1 resize
-bind 3:ctrl;alt         throw 2 resize
-#bind right:ctrl;alt;cmd throw right resize
-#bind left:ctrl;alt;cmd  throw left  resize
-#bind up:ctrl;alt;cmd    throw up    resize
-#bind down:ctrl;alt;cmd  throw down  resize
+#bind 1:ctrl;alt         throw 0 resize
+#bind 2:ctrl;alt         throw 1 resize
+#bind 3:ctrl;alt         throw 2 resize
+bind right:ctrl;shift throw right resize
+bind left:ctrl;shift  throw left  resize
+bind up:ctrl;shift    throw up    resize
+bind down:ctrl;shift  throw down  resize
 
 # Focus Bindings
 #bind right:cmd    focus right
