@@ -30,6 +30,7 @@ alias t="trash"
 alias o="open"
 alias oo="open ."
 alias v="vagrant"
+alias openPopCorn="open $TMPDIR/Popcorn-Time"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
