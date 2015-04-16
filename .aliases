@@ -151,3 +151,10 @@ command -v grunt > /dev/null && alias grunt="grunt --stack"
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 7'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
+
+# Make a new gif from a .mov file
+makeVideo() {
+  ffmpeg -i $1.mov -s $2 -pix_fmt rgb24 -r 18 -f gif - | gifsicle --optimize=3 --delay=3 > $1.gif
+}
+
+alias newVideo=makeVideo
