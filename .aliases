@@ -19,6 +19,7 @@ alias gadd="git add -A"
 alias gap="git add -p"
 alias gs="git status"
 alias gss="git status -s"
+alias gshow="git show --pretty='format:' --name-only"
 alias h="history"
 #alias j="jobs"
 #alias lol="lolcommits -c"
@@ -153,8 +154,8 @@ alias pumpitup="osascript -e 'set volume 7'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
 # Make a new gif from a .mov file
-makeVideo() {
+makegif() {
   ffmpeg -i $1.mov -s $2 -pix_fmt rgb24 -r 18 -f gif - | gifsicle --optimize=3 --delay=3 > $1.gif
 }
 
-alias newVideo=makeVideo
+alias newVideo=makegif
