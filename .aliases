@@ -7,10 +7,10 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias a="atom"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias dev="cd ~/dev"
+
 #alias git="hub"
 alias g="git"
 alias gprune="git remote update origin --prune"
@@ -31,7 +31,6 @@ alias t="trash"
 alias o="open"
 alias oo="open ."
 alias v="vagrant"
-alias openPopCorn="open $TMPDIR/Popcorn-Time"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
